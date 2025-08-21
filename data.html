@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Сертификат NetForce</title>
+  <style>
+    body {
+      font-family: "Trebuchet MS", sans-serif;
+      background: #fdfcf7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .certificate {
+      background: #fff;
+      border: 10px solid #bfa135; /* золотой цвет */
+      border-radius: 15px;
+      padding: 50px;
+      text-align: center;
+      max-width: 700px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.25);
+      position: relative;
+    }
+    .certificate::before {
+      content: "";
+      position: absolute;
+      top: 15px;
+      bottom: 15px;
+      left: 15px;
+      right: 15px;
+      border: 5px dashed #f5d76e; /* золотой пунктир */
+      border-radius: 10px;
+      pointer-events: none;
+    }
+    .certificate h1 {
+      font-size: 30px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+    .certificate p {
+      font-size: 20px;
+      margin: 15px 0;
+    }
+    .emoji {
+      font-size: 100px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="certificate">
+    <h1>Поздравляю, команда NetForce!</h1>
+    <p>Вы вернули данные 🎉</p>
+    <div class="emoji">🏅</div>
+    <p><em>Вам присваивается звание<br><strong>Цифрового детектива</strong></em></p>
+  </div>
+</body>
+</html>
